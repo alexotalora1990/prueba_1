@@ -1,0 +1,137 @@
+
+.padre1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(158, 155, 151);
+    font-family: tahoma;
+    padding: 30px;
+}
+
+
+.mes {
+    text-align: center;
+    width: 300px;
+    
+
+
+}
+
+.fond {
+    width: 300px;
+    height: 350PX;
+    background-color: #f7f7f7;
+    border-radius: 10%;
+    position: relative;
+    box-shadow: 4px 5px 4px #1a1919;
+    margin-top: 8%;
+}
+
+.argi {
+    width: 6%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: -35%;
+}
+
+.argd {
+    width: 6%;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 26%;
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 5%;
+    margin-top: 3%;
+
+
+}
+
+li {
+    text-align: right;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+}
+
+.num {
+    font-size: 350%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dia1 {
+    grid-column-start: 1;
+}
+
+.dia2 {
+    grid-column-start: 1;
+    color: #c4bebe;
+}
+
+
+.festivo {
+    color: red;
+}
+.hoy{
+    color:#8755e4 ;
+}
+
+.name {
+    color: red;
+    text-align: center;
+
+}
+
+.fondo {
+    background-color: #8755e4;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.siguiente {
+    color: #c4bebe;
+}
+
+
+
+
+
+@media(max-width: 1300px) {
+
+    
+
+    .padre1 {
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+
+@media(max-width: 1000px) {
+    .padre1{
+    
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+}
+
+@media(max-width: 650px) {
+    .padre1 {
+        padding: 2%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+}
+
